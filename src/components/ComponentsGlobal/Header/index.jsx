@@ -1,27 +1,27 @@
-import {Conteiner,Nav} from "./style"
-import {Link} from "react-router-dom"
+import { Conteiner, Nav } from "./style"
+import { } from "react-router-dom"
 
 
-export default function Header(){
+export default function Header() {
 
-    return(
-        <Conteiner>
-        <Nav>
-            <ul>
-                <li>
-                    <Link >Sobre</Link>
-                </li>
-                <li>
-                    <Link >Projetos</Link>
-                </li>
-                <li>
-                    <Link >Impressões3D</Link>
-                </li>
+	return (
+		<Conteiner>
+			<Nav>
+				<ul>
+					<li>
+						<a href="#sobre">Sobre</a>
+					</li>
+					<li>
+						<a href="#projetos">Projetos</a>
+					</li>
+					<li>
+						<a href="#impressao">Impressões3D</a>
+					</li>
 
-            </ul>
+				</ul>
 
-        </Nav>
+			</Nav>
 
-        </Conteiner>
-    )
+		</Conteiner>
+	)
 }

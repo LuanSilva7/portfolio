@@ -1,8 +1,12 @@
-export default function Footer(){
+import { Container, Text } from "./styles"
 
+export default function Footer(){
+    const date = new Date()
     return(
-        <>
-        <h1>Footer</h1>
-        </>
+        <Container>
+            <Text>
+                {date.getFullYear()} - Portifólio
+            </Text>
+        </Container>
     )
 }
